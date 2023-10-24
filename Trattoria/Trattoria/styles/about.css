@@ -1,0 +1,76 @@
+@font-face {
+   font-family: myFont;
+   src: url('../fonts/Amsterdam.ttf');
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-especial {
+    font-family: myFont;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: myFont;
+    font-weight: 100;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.making-pasta {
+    max-height: 500px;
+}
+
+.plant1 {
+    position: absolute;
+    left: 2%;
+    height: 70px;
+    width: 90px;
+}
+
+.plant2 {
+    position: absolute;
+    transform: rotateY(180deg);
+    right: 2%;
+    height: 70px;
+    width: 90px;
+}
+
+.texts {
+    width: 60%;
+}
+
+.background {
+    background-color: #BF4E30;
+}
+
+
+
+.view-menu-btn {
+    border: none;
+    padding: 0px 20px;
+    font-family: myFont;
+    font-size: 15px;
+    background-color: #eaaf56;
+    border-radius: 5px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.view-menu {
+    position: relative;
+    text-align: center;
+}
+
+.plant-img {
+    position: absolute;
+    top: -300%;
+    left: 50%;
+    transform: translateX(-50%);
+}
